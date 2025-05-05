@@ -11,7 +11,7 @@ npm install -g @kobradag/grpc
 ## Cloning kobra-grpc
 
 ```
-git clone https://github.com/kobradag/kobra-grpc
+git clone https://github.com/kobradag/koda-grpc
 cd kobra-grpc
 npm install
 ```
@@ -22,7 +22,7 @@ npm install
 const { Client } = require('@kobradag/grpc');
 
 const client = new Client({
-    host:"127.0.0.1:44450"
+    host:"127.0.0.1:44448"
 });
 client.connect();
 client.verbose = true;
