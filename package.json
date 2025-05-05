@@ -3,14 +3,14 @@
   "version": "1.4.1",
   "description": "Node gRPC interface for Kobra",
   "main": "dist/index.js",
-  "authors": [
+  "author": {
+    "name": "Kobra Developers",
+    "email": "kobradagceo@gmail.com"
+  },
+  "contributors": [
     {
       "name": "ASPECTRON Inc",
       "email": "info@aspectron.com"
-    },
-    {
-      "name": "Kobra Developers",
-      "email": "kobradagceo@gmail.com"
     }
   ],
   "license": "ISC",
